@@ -31,17 +31,6 @@ $context = stream_context_create(
                     echo $tags->item($i)->nodeValue . "\n";
                 }
 
-        //    foreach ($tags as $title ) {
-            
-        //     $v = $title->hasChildNodes()?" hasChildNodes":" hasNoChildNodes";
-        //     echo $tags->length;
-        //     echo  $v. "<br/>";
-
-        //    }
-
-           // Restore error level
-
-
         
     }
 }
